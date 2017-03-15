@@ -38,6 +38,47 @@
     /* border-color: aliceblue; */
     /* border-style: solid; */
     border: 20px solid lightgrey;
-    padding: 0;
+    padding: 20px;
 }
 
+.nopoint{
+    list-style: none;
+}
+.nopoint li{
+    margin-bottom: 8px;
+    /*margin:0 0 8px 0;*/
+}
+
+.picture{
+    margin: 17px 0;
+}
+
+.paragragh{
+    line-height: 24px;
+    text-indent: 25px;
+}
+.title_60{
+    line-height: 60px;
+    font-size: large;
+}
+.title_40{
+    line-height: 40px;
+    font-size: medium;
+    color: rgba(89, 96, 100, 0.69);
+}
+.title_30{
+    line-height: 30px;
+    font-size: small;
+    color: rgba(158, 158, 158, 0.77);
+}
+.picture-border{
+    border: 1px solid #000;
+    width: 200px;
+    /*height: 200px;*/
+    padding:25px ;
+    box-sizing: border-box;
+}
+.picture-border img{
+    width: 150px;
+    height: auto;
+}
