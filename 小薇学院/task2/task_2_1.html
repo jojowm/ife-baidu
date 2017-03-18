@@ -70,12 +70,12 @@
     <h2 class="title_60">最后一篇文章一级标题</h2>
     <h3 class="title_40">文章二级标题</h3>
     <p class="title_30">文章作者 文章发表时间</p>
-    <ol>
+    <ol class="ol-indent">
         <li>排名1</li>
         <li>排名2</li>
         <li>排名3</li>
     </ol>
-    <table border="1">
+    <table class="table-style">
         <tr>
             <th>表头</th>
             <th>表头</th>
@@ -84,22 +84,22 @@
         <tr>
             <td>表内容单元格</td>
             <td>表内容单元格</td>
-            <td>操作</td>
+            <td><a href="#">操作</a></td>
         </tr>
         <tr>
             <td>表内容单元格</td>
             <td>表内容单元格</td>
-            <td>操作</td>
+            <td><a href="#">操作</a></td>
         </tr>
         <tr>
             <td>表内容单元格</td>
             <td>表内容单元格</td>
-            <td>操作</td>
+            <td><a href="#">操作</a></td>
         </tr>
         <tr>
             <td>表内容单元格</td>
             <td>表内容单元格</td>
-            <td>操作</td>
+            <td><a href="#">操作</a></td>
         </tr>
         <tr>
             <td>总计</td>
@@ -109,31 +109,58 @@
 </div>
 
 <div class="sidebar">
-    <h4>这里以后是侧栏，这里是侧栏的标题</h4>
+    <p class="title_40_black">这里以后是侧栏，这里是侧栏的标题</p>
     <div>
-        <span>请输入邮箱地址：</span>
-        <input type="text" placeholder="这是一个文本输入框">
-        <span>邮箱地址请按要求格式输入</span><br>
-        <span>请输入密码：</span>
-        <input type="text" placeholder="这是一个文本输入框">
-        <span>请重复输入密码：</span>
-        <input type="password" placeholder="这是一个文本输入框"><br>
-        <span>密码请为6-16位英文数字</span><br>
-        <span>性别：</span>
-        <label><input type="radio" name="sex" value="male">男</label>
-        <label><input type="radio" name="sex" value="female">女</label>
-        <span>城市：</span>
-        <select>
-            <option value="beijing">北京</option>
-            <option value="chongqing">重庆</option>
-        </select>
-        <span>爱好：</span>
-        <label for="sport">运动</label><input type="checkbox" id="sport" value="sport">
-        <label for="art">艺术</label><input type="checkbox" id="art" value="art">
-        <label for="science">科学</label><input type="checkbox" id="science" value="science">
-        <span>个人描述：</span>
-        <textarea cols="15" rows="2" placeholder="这是一个多行输入框，输入您的个人描述"></textarea>
-        <input type="button" value="确认提交">
+        <table class="sidebar-table">
+            <tr>
+                <th><span>请输入邮箱地址：</span></th>
+                <td><input type="text" placeholder="这是一个文本输入框"><br><span>邮箱地址请按要求格式输入</span></td>
+            </tr>
+            <tr>
+                <th><span>请输入密码：</span></th>
+                <td><input type="password" placeholder="这是一个文本输入框"></td>
+            </tr>
+            <tr>
+                <th><span>请重复输入密码：</span></th>
+                <td>
+                    <input type="password" placeholder="这是一个文本输入框"><br>
+                    <span>密码请为6-16位英文数字</span>
+                </td>
+            </tr>
+            <tr>
+                <th><span>性别：</span></th>
+                <td>
+                    <label><input type="radio" name="sex" value="male">男</label>
+                    <label><input type="radio" name="sex" value="female">女</label>
+                </td>
+            </tr>
+            <tr>
+                <th><span>城市：</span></th>
+                <td>
+                    <select>
+                        <option value="beijing">北京</option>
+                        <option value="chongqing">重庆</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th><span>爱好：</span></th>
+                <td>
+                    <label for="sport">运动</label><input type="checkbox" id="sport" value="sport">
+                    <label for="art">艺术</label><input type="checkbox" id="art" value="art">
+                    <label for="science">科学</label><input type="checkbox" id="science" value="science">
+                </td>
+            </tr>
+            <tr>
+                <th><span>个人描述：</span></th>
+                <td>
+                    <textarea cols="15" rows="2" placeholder="这是一个多行输入框，输入您的个人描述"></textarea>
+                </td>
+            </tr>
+
+        </table>
+
+        <input type="button" value="确认提交" class="verify">
     </div>
 </div>
 

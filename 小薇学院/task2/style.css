@@ -91,3 +91,66 @@
     /*float: left;*/
     /*padding: 10px 32px;*/
 /*}*/
+
+.ol-indent{
+    margin: 10px 30px;
+}
+.table-style{
+    width: 100%;
+    text-align: left;
+    /* collapse用于使表格边框消失*/
+    border-collapse: collapse;
+}
+.table-style th{
+    background-color: rgba(50, 50, 50, 0.63);
+}
+
+.table-style tr:last-child{
+    background-color: rgba(50, 50, 50, 0.16);
+}
+.table-style td{
+    padding: 3px;
+}
+
+.title_40_black{
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+    margin: 5px;
+}
+.sidebar-table{
+    width: 100%;
+}
+.sidebar-table th{
+    text-align: right;
+}
+.sidebar-table td{
+    text-align: left;
+}
+.verify{
+    width:90%;
+    margin: 0 auto;
+    display: block;
+    background-color: rgba(0, 255, 255, 0.39);
+    border-radius: 5px;
+}
+
+.sidebar {
+    /* border-width: 15px; */
+    /* border-color: aliceblue; */
+    /* border-style: solid; */
+    border: 20px solid lightgrey;
+    padding: 20px;
+    /*margin-bottom: 0;*/
+    /*border-bottom: 0;*/
+}
+.foot{
+    height:55px;
+    background-color: black;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    /*vertical-align: middle;*/
+    padding-top: 18px;
+    padding-bottom: 22px;
+}
